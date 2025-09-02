@@ -140,4 +140,4 @@ Após iniciar o servidor, acesse:
 
 ------------------------------------------------------------------------
 
-Feito com 💻 por \[Seu Nome\] 🚀
+Feito com 💻 por Kellton Hamaia 🚀
