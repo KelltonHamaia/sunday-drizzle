@@ -131,13 +131,4 @@ Após iniciar o servidor, acesse:
 
 ------------------------------------------------------------------------
 
-## ✅ Desafios Extras
-
--   Implementar refresh token.
--   Adicionar paginação nas listas de tarefas.
--   Criar dashboard com métricas de produtividade.
--   Notificações por e-mail quando tarefa for atribuída.
-
-------------------------------------------------------------------------
-
 Feito com 💻 por Kellton Hamaia 🚀
