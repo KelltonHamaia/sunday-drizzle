@@ -1,6 +1,6 @@
 import type { FastifyPluginAsyncZod } from 'fastify-type-provider-zod'
 import z from 'zod'
-import { code } from '../shared/status-code'
+import { code } from '../shared/status-code.ts'
 
 export const healthCheckRoute: FastifyPluginAsyncZod = async (server) => {
     server.get(

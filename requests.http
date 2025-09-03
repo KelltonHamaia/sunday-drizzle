@@ -2,3 +2,14 @@
 
 ### Health Check
 GET {{baseURL}}/health-check
+
+
+### create an new user
+POST {{baseURL}}/create-user
+Content-Type: application/json
+
+{
+    "name": "kellton",
+    "email":"kell@gmail.com",
+    "password": "123456"
+}

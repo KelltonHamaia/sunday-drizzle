@@ -7,6 +7,7 @@ import {
     validatorCompiler,
     type ZodTypeProvider,
 } from 'fastify-type-provider-zod'
+import { createUserRoute } from './routes/create-user-route.ts'
 import { healthCheckRoute } from './routes/health-check.ts'
 
 export const server = fastify({
@@ -44,3 +45,4 @@ server.register(scalarAPIReference, {
 })
 
 server.register(healthCheckRoute)
+server.register(createUserRoute)
